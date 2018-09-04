@@ -1,2 +1,4 @@
 .idea
 cgo-server-sample
+C/main
+out/
