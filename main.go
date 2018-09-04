@@ -7,6 +7,10 @@ import (
 )
 
 func main() {
-	fmt.Println("vim-go")
 	fmt.Println(server.Run())
+}
+
+//export Run
+func Run() error {
+	return server.Run()
 }
